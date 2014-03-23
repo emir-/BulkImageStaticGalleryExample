@@ -1,0 +1,31 @@
+﻿body {
+    background-color: #537B94;
+}
+
+.applied-font {
+    font-family: "Poiret One", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+}
+
+.thumbnail-gallery-example {
+    width: 100px;
+    height: 100px;
+}
+
+.image-container {
+    margin: 20px;
+    
+    border: 1px solid #333333 !important;
+}
+
+    .image-container a {
+        display: inline-block;
+        margin: 2px;
+    }
+
+        .image-container a:hover {
+            text-decoration: none;
+        }
+
+        .image-container a:hover img {
+            background-color: #537B94;
+        }

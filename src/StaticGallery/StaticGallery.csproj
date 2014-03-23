@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3161BA9B-F648-46B5-9144-560644F9B08E}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StaticGallery</RootNamespace>
+    <AssemblyName>StaticGallery</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\blueimp.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\css\gallery.css" />
+    <Content Include="Content\gallery\bootstrap-image-gallery.css" />
+    <Content Include="Content\gallery\bootstrap-image-gallery.min.css" />
+    <Content Include="Content\justified.nav.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="images\york\1.jpg" />
+    <Content Include="images\york\10.jpg" />
+    <Content Include="images\york\11.jpg" />
+    <Content Include="images\york\12.jpg" />
+    <Content Include="images\york\13.png" />
+    <Content Include="images\york\14.jpg" />
+    <Content Include="images\york\15.jpg" />
+    <Content Include="images\york\16.jpg" />
+    <Content Include="images\york\17.jpg" />
+    <Content Include="images\york\18.jpg" />
+    <Content Include="images\york\19.bmp" />
+    <Content Include="images\york\20.jpg" />
+    <Content Include="images\york\21.jpg" />
+    <Content Include="images\york\23.jpg" />
+    <Content Include="images\york\24.jpg" />
+    <Content Include="images\york\25.jpg" />
+    <Content Include="images\york\26.jpg" />
+    <Content Include="images\york\28.jpg" />
+    <Content Include="images\york\29.jpg" />
+    <Content Include="images\york\3.jpg" />
+    <Content Include="images\york\30.jpg" />
+    <Content Include="images\york\4.jpg" />
+    <Content Include="images\york\5.jpg" />
+    <Content Include="images\york\6.jpg" />
+    <Content Include="images\york\7.jpg" />
+    <Content Include="images\york\8.jpg" />
+    <Content Include="images\york\9.jpg" />
+    <Content Include="images\york\thumb\thumb_1.png" />
+    <Content Include="images\york\thumb\thumb_10.png" />
+    <Content Include="images\york\thumb\thumb_11.png" />
+    <Content Include="images\york\thumb\thumb_12.png" />
+    <Content Include="images\york\thumb\thumb_13.png" />
+    <Content Include="images\york\thumb\thumb_14.png" />
+    <Content Include="images\york\thumb\thumb_15.png" />
+    <Content Include="images\york\thumb\thumb_16.png" />
+    <Content Include="images\york\thumb\thumb_17.png" />
+    <Content Include="images\york\thumb\thumb_18.png" />
+    <Content Include="images\york\thumb\thumb_19.png" />
+    <Content Include="images\york\thumb\thumb_2.png" />
+    <Content Include="images\york\thumb\thumb_20.png" />
+    <Content Include="images\york\thumb\thumb_21.png" />
+    <Content Include="images\york\thumb\thumb_22.png" />
+    <Content Include="images\york\thumb\thumb_23.png" />
+    <Content Include="images\york\thumb\thumb_24.png" />
+    <Content Include="images\york\thumb\thumb_25.png" />
+    <Content Include="images\york\thumb\thumb_26.png" />
+    <Content Include="images\york\thumb\thumb_27.png" />
+    <Content Include="images\york\thumb\thumb_28.png" />
+    <Content Include="images\york\thumb\thumb_29.png" />
+    <Content Include="images\york\thumb\thumb_3.png" />
+    <Content Include="images\york\thumb\thumb_30.png" />
+    <Content Include="images\york\thumb\thumb_4.png" />
+    <Content Include="images\york\thumb\thumb_5.png" />
+    <Content Include="images\york\thumb\thumb_6.png" />
+    <Content Include="images\york\thumb\thumb_7.png" />
+    <Content Include="images\york\thumb\thumb_8.png" />
+    <Content Include="images\york\thumb\thumb_9.png" />
+    <Content Include="Index.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <None Include="Properties\PublishProfiles\FS.pubxml" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Scripts\gallery\bootstrap-image-gallery.js" />
+    <Content Include="Scripts\gallery\bootstrap-image-gallery.min.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>24831</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:24574/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
