@@ -8,3 +8,7 @@ An example web site of combining the functinoality of two small utilities for
 Bootstrap Gallery Plugin
 --
 The static gallery uses the following bootstrap gallery plugin to display the images in a lightbox:https://github.com/blueimp/Bootstrap-Image-Gallery 
+
+Example
+--
+The example is deployed and can be found at: http://galleryexample.students.mk/
